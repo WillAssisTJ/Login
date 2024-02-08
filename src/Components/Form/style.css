@@ -1,0 +1,144 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer1,
+.inputContainer2,
+.button,
+.button2,
+.Terms,
+.continue,
+.forgot,
+.header {
+  margin-bottom: 15px;
+}
+
+.inputContainer2,
+.forgot {
+  margin-bottom: 5px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  width: 320px;
+  height: 36px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.button button,
+.button2 button {
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.button button {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.button button:hover {
+  background-color: #5d5d5d;
+  border-color: #333;
+}
+
+.button2 button {
+  background-color: white;
+  border: 1px solid #5d5d5d;
+  font-weight: bold;
+}
+
+.button2 button:hover {
+  background-color: #5d5d5d;
+  border-color: #5d5d5d;
+}
+
+.Terms {
+  text-align: center;
+}
+
+.Terms a {
+  text-decoration: underline;
+  color: #5d5d5d;
+}
+
+.Terms a:first-child {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.Terms a:last-child {
+  padding-left: 10px;
+}
+
+.continue {
+  text-align: center;
+}
+
+.continue span {
+  position: relative;
+  color: #5d5d5d;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12.1px;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.continue span::before,
+.continue span::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 5px;
+}
+
+.continue span::before {
+  right: 100%;
+  margin-right: 10px;
+}
+
+.continue span::after {
+  left: 100%;
+  margin-left: 10px;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: #5d5d5d;
+}
+.forgot {
+  font-size: 10px;
+  line-height: 12.1px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.header img {
+  margin-right: 10px;
+}
+
+.header span {
+  font-size: 32px;
+  line-height: 38.73px;
+  font-weight: 600;
+  padding: 8px;
+}
